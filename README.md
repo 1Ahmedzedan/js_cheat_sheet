@@ -21,3 +21,6 @@ request.addEventListener('load' , ()=>{
 - method : the type of request : 'GET' or 'POST' .
 - url : the server (file location) .
 - async : true for asynchronous , false for synchronous (by default true (asynchronous)) .
+### request.send() 
+- send() : Sends the request to the server (used for GET) .
+- send(string) : Sends the request to the server (used for POST) .
