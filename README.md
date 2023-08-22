@@ -5,7 +5,7 @@
 # AJAX(Asynchronous JavaScript And XML) : 
 ```java script
 const request = new XMLHttpRequest() ;
-request.open('GET' , 'url') ;
+request.open('GET' , 'url' , true) ;
 request.send() ;
 request.addEventListener('load' , ()=>{
       const [data] = JSON.parse(request.responseText) ;
@@ -14,6 +14,6 @@ request.addEventListener('load' , ()=>{
       */
 });
 ```
-### explain code :
-- const request = new XMLHttpRequest() ;
-  - The XMLHttpRequest object can be used to exchange data with a web server behind the scenes. This means that it is possible to update parts of a web page, without     reloading the whole page.
+## explain code :
+### new XMLHttpRequest() 
+The XMLHttpRequest object can be used to exchange data with a web server behind the scenes. This means that it is possible to update parts of a web page, without     reloading the whole page.
