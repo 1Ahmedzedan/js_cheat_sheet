@@ -8,9 +8,11 @@ const request = new XMLHttpRequest() ;
 request.open('GET' , 'url') ;
 request.send() ;
 request.addEventListener('load' , ()=>{
-  /*
       const [data] = JSON.parse(request.responseText) ;
-      deal with response 
-  */
+      /*
+          deal with response 
+      */
 });
 ```
+- const request = new XMLHttpRequest() ;
+  - The XMLHttpRequest object can be used to exchange data with a web server behind the scenes. This means that it is possible to update parts of a web page, without     reloading the whole page.
