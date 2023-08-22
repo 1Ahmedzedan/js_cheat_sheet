@@ -16,4 +16,4 @@ request.addEventListener('load' , ()=>{
 ```
 ## explain code :
 ### new XMLHttpRequest() 
-The XMLHttpRequest object can be used to exchange data with a web server behind the scenes. This means that it is possible to update parts of a web page, without     reloading the whole page.
+- The XMLHttpRequest object can be used to exchange data with a web server behind the scenes. This means that it is possible to update parts of a web page, without     reloading the whole page.
