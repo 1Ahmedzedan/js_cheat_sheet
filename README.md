@@ -37,8 +37,8 @@ request.addEventListener('load' , ()=>{
 - `request.readystate`
   -  returns the state an XMLHttpRequest client is in. An XHR client exists in one of the following states :
   
-  Value | State | right aligned
-  ------|:------------------:|--------------:
+  Value |        State       | Description
+  ------|:------------------:|-------------------------------------------------------------------:
   0     | UNSET              | Client has been created. `open()` not called yet.
   1     | OPENED             | `open()` has been called.
   2     | HEADERS_RECEIVED   | `send()` has been called, and headers and status are available.
