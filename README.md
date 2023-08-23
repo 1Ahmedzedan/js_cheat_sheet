@@ -36,6 +36,7 @@ request.addEventListener('load' , ()=>{
   - return response from server in a json format
 - `request.readystate`
   -  returns the state an XMLHttpRequest client is in. An XHR client exists in one of the following states :
+  
   Value | State | right aligned
   ------|:------------------:|--------------:
   0     | UNSET              | Client has been created. `open()` not called yet.
