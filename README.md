@@ -24,3 +24,12 @@ request.addEventListener('load' , ()=>{
 ### request.send() 
 - send() : Sends the request to the server (used for GET) .
 - send(string) : Sends the request to the server (used for POST) .
+### JSON.parse()
+- convert json string written in json format to java script object
+> **Note**
+> JSON.stringify() convert js object to json format
+### some property to deal with response : 
+- request.responseText
+  - return response from server in a json format
+- request.readystate
+  - return stat
