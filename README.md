@@ -46,4 +46,4 @@ request.addEventListener('load' , ()=>{
   4     | DONE               | The operation is complete.
 
 >**Note**
->[read more]((https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState)https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState) about state property .
+>[read more](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState)about state property .
