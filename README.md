@@ -25,13 +25,21 @@ request.addEventListener('load' , ()=>{
 `request.send()` 
 - send() : Sends the request to the server (used for GET) .
 - send(string) : Sends the request to the server (used for POST) .
+
 `JSON.parse()`
 - convert json string written in json format to java script object
 > **Note**
 > `JSON.stringify()` convert js object to json format
+
 ### some property to deal with response : 
 - `request.responseText`
   - return response from server in a json format
 - `request.readystate`
-  -  returns the state an XMLHttpRequest client is in. An XHR client exists in one of the following states:
-  
+  -  returns the state an XMLHttpRequest client is in. An XHR client exists in one of the following states :
+  Value | State | right aligned
+  ------|:------------------:|--------------:
+  0     | UNSET              | Client has been created. `open()` not called yet.
+  1     | OPENED             | `open()` has been called.
+  2     | HEADERS_RECEIVED   | `send()` has been called, and headers and status are available.
+  3     | LOADING            | Downloading; `responseText` holds partial data.
+  4     | DONE               | The operation is complete.
