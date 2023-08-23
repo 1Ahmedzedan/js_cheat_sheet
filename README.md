@@ -27,7 +27,7 @@ request.addEventListener('load' , ()=>{
 ### JSON.parse()
 - convert json string written in json format to java script object
 > **Note**
-> ###JSON.stringify()
+> ### JSON.stringify()
 > convert js object to json format
 ### some property to deal with response : 
 - request.responseText
