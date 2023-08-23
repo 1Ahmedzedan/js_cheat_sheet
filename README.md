@@ -39,8 +39,8 @@ request.addEventListener('load' , ()=>{
   
   Value |        State       | Description
   ------|:------------------:|-------------------------------------------------------------------:
-  0     | UNSET              | Client has been created. `open()` not called yet.
-  1     | OPENED             | `open()` has been called.
+  0     | UNSET  | Client has been created. `open()` not called yet.
+  1     | OPENED | `open()` has been called.
   2     | HEADERS_RECEIVED   | `send()` has been called, and headers and status are available.
-  3     | LOADING            | Downloading; `responseText` holds partial data.
-  4     | DONE               | The operation is complete.
+  3     | LOADING | Downloading; `responseText` holds partial data.
+  4     | DONE    | The operation is complete.
