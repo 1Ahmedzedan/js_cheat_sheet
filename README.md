@@ -17,6 +17,7 @@ request.addEventListener('load' , ()=>{
 ## explain code :
 `XMLHttpRequest()`
 - The XMLHttpRequest object can be used to exchange data with a web server behind the scenes. This means that it is possible to update parts of a web page, without     reloading the whole page.
+
 `request.open('mehtod' , 'url' , async)`
 - method : the type of request : 'GET' or 'POST' .
 - url : the server (file location) .
