@@ -28,7 +28,7 @@ request.addEventListener('load' , ()=>{
 
 `JSON.parse()`
 - convert json string written in json format to java script object
-> **Note**
+
 > `JSON.stringify()` convert js object to json format
 
 ### some property to deal with response : 
@@ -45,5 +45,5 @@ request.addEventListener('load' , ()=>{
   3     | LOADING            | Downloading; `responseText` holds partial data.
   4     | DONE               | The operation is complete.
 
->**Note**
 >[read more](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState) about state property .
+---
