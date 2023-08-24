@@ -46,4 +46,13 @@ request.addEventListener('load' , ()=>{
   4     | DONE               |The operation is complete.
 
 >[read more](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState) about `readstate` property .
+
+- `request.status`
+
+ Value  | Status
+  ------|-------------------:|
+  200   | Ok                 |
+  404   | Not Found          |
+
+  >[read more](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) about `status code` .
 ---
