@@ -56,3 +56,12 @@ request.addEventListener('load' , ()=>{
 
   >[read more](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) about `status code` .
 ---
+
+# Fetch and Promise :
+``` java script
+fetch('url')
+.then(response=>response.json())
+.then(data=>{
+      // deal with data 
+}) ; 
+```
