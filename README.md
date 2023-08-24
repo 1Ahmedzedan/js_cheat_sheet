@@ -1,6 +1,6 @@
-# API : 
+# API :
 
-<img src="https://github.com/1Ahmedzedan/js_cheat_sheet/assets/116225212/17115824-605a-457e-bb08-6f6076ec176b" alt="Picture" style="display: block; margin: 0 auto" />
+<img src="https://github.com/1Ahmedzedan/js_cheat_sheet/assets/116225212/82b0e6a8-46a3-48d3-be7b-3b79e641df48" alt="Picture" style="display: block; margin: 0 auto" />
 
 # AJAX(Asynchronous JavaScript And XML) : 
 ```java script
