@@ -45,5 +45,5 @@ request.addEventListener('load' , ()=>{
   3     | LOADING            |Downloading; `responseText` holds partial data.
   4     | DONE               |The operation is complete.
 
->[read more](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState) about state property .
+>[read more](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState) about `readstate` property .
 ---
