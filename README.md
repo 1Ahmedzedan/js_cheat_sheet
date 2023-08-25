@@ -91,14 +91,14 @@ fetch('url' , options)
 - return response from server
 >[read more](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) about `HTTP request method` .
 
-`then`
+`then()`
 
 - call when promise resolved.
 
- `catch`
+ `catch()`
 
  - call when promise rejected.
 
-`finally`
+`finally()`
 
 - call in any case promise (resolved or rejected).
