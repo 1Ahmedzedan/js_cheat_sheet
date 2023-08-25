@@ -59,7 +59,7 @@ request.addEventListener('load' , ()=>{
 
 # Fetch and Promise :
 ``` java script
-fetch('url')
+fetch('url' , options)
 .then(response=>response.json()) // call when promise accepted 
 .then(data=>{                    // call when promise accepted 
       // deal with data 
@@ -71,3 +71,22 @@ fetch('url')
       // deal with finally callback function  
 }); 
 ```
+## explain code :
+
+`fetch(url , options)`
+
+- url : the server (file location) .
+- options : select (HTTP request method type , headers , send body of request)
+  - ex :
+  ```
+      let options = {
+      method: 'POST',
+      headers: {
+          'Content-Type': 
+              'application/json;charset=utf-8'
+      },
+      body: JSON.stringify(user)
+      }
+  ```
+- return response from server
+>[read more](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) about `HTTP request method` .
