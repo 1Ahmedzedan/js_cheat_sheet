@@ -147,7 +147,7 @@ getJSON('url' , "error message")
 - `Await` Works Only Inside Async Function .
 - `Await` Make JS Wait For The Promise Result .  
 - `Await` Is More Elegant Syntex Of Getting Promise Result
-- Code :
+- **Code** :
 ``` java script
 async function getJson(){
       let res = await fetch('url') ;
