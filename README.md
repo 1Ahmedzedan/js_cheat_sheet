@@ -60,8 +60,14 @@ request.addEventListener('load' , ()=>{
 # Fetch and Promise :
 ``` java script
 fetch('url')
-.then(response=>response.json())
-.then(data=>{
+.then(response=>response.json()) // call when promise accepted 
+.then(data=>{                    // call when promise accepted 
       // deal with data 
-}) ; 
+})
+.catch(error=>{                // call when promise rejected 
+      // deal with error 
+})
+.finally(()=>{                // call any time when promise (rejected or accepted )
+      // deal with finally callback function  
+}); 
 ```
