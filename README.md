@@ -104,7 +104,7 @@ fetch('url' , options)
 - call in any case promise (resolved or rejected).
 
 ## throw error manually : 
-- Code 1 : 
+- **Code 1** : 
 ``` java script
 fetch('url' , options)
 .then(response=>{
@@ -122,7 +122,7 @@ fetch('url' , options)
 }); 
 ```
 
-- Code 2 : 
+- **Code 2** : 
 ``` java script
 getJSON('url' , "error massege")
 .then(data=>{                 
