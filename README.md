@@ -97,8 +97,47 @@ fetch('url' , options)
 
  `catch()`
 
- - call when promise rejected.
+ - call when promise rejected (exist any error).
 
 `finally()`
 
 - call in any case promise (resolved or rejected).
+
+## throw error manually : 
+1- Code 1 : 
+``` java script
+fetch('url' , options)
+.then(response=>{
+      if(!respone.ok) throw new Error("error massege") ; // throw error manually by throw new ebject Error to catch
+      return response.json() ; 
+}) 
+.then(data=>{                 
+      // deal with data 
+})
+.catch(error=>{                
+      // deal with error 
+})
+.finally(()=>{               
+      // deal with finally callback function  
+}); 
+```
+
+2- Code 2 : 
+``` java script
+getJSON('url' , "error massege")
+.then(data=>{                 
+      // deal with data 
+})
+.catch(error=>{                
+      // deal with error 
+})
+.finally(()=>{               
+      // deal with finally callback function  
+}); 
+```
+
+`getJSON('url' , "error massege")`
+
+- url : the server (file location) .
+- return response.json() .
+---
