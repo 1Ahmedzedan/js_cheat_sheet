@@ -60,14 +60,14 @@ request.addEventListener('load' , ()=>{
 # Fetch and Promise :
 ``` java script
 fetch('url' , options)
-.then(response=>response.json()) // call when promise accepted 
-.then(data=>{                    // call when promise accepted 
+.then(response=>response.json()) // call when promise resolved 
+.then(data=>{                    // call when promise resolved
       // deal with data 
 })
 .catch(error=>{                // call when promise rejected 
       // deal with error 
 })
-.finally(()=>{                // call any time when promise (rejected or accepted )
+.finally(()=>{                // call any time when promise (rejected or resolved )
       // deal with finally callback function  
 }); 
 ```
@@ -90,3 +90,15 @@ fetch('url' , options)
   ```
 - return response from server
 >[read more](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) about `HTTP request method` .
+
+`then`
+
+- call when promise resolved.
+
+ `catch`
+
+ - call when promise rejected.
+
+`finally`
+
+- call in any case promise (resolved or rejected).
