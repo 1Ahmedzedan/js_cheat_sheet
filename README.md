@@ -124,7 +124,7 @@ fetch('url' , options)
 
 - **Code 2** : 
 ``` java script
-getJSON('url' , "error massege")
+getJSON('url' , "error message")
 .then(data=>{                 
       // deal with data 
 })
@@ -136,7 +136,7 @@ getJSON('url' , "error massege")
 }); 
 ```
 
-`getJSON('url' , "error massege")`
+`getJSON('url' , "error message")`
 
 - url : the server (file location) .
 - return response.json() .
