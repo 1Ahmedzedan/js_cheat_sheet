@@ -141,3 +141,35 @@ getJSON('url' , "error message")
 - url : the server (file location) .
 - return response.json() .
 ---
+## Promises with Async / await : 
+- `Async` key word Before Function Mean This Function Return A Promise .
+- `Async` And `Await` Help In Creating Asynchronous Promise Behavior Cleanner Style .
+- `Await` Works Only Inside Async Function .
+- `Await` Make JS Wait For The Promise Result .  
+- `Await` Is More Elegant Syntex Of Getting Promise Result
+- Code :
+``` java script
+async function getJson(){
+      let res = await fetch('url') ;
+      let data = await res.json() ;
+      return data ; 
+}
+```
+## try and catch syntax : 
+``` java script
+async function getJson(){
+      try{
+            let res = await fetch('url') ;
+            if(!res.ok) throw new Error('failed') ; 
+            let data = await res.json() ;
+            return data ; 
+      }
+      catch(error){
+            // deal with error
+      }
+      finally{
+            console.log('finish') ;
+            // call in any case promise (resolve or rejected)
+      }
+}
+```
